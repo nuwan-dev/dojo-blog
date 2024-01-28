@@ -1,0 +1,19 @@
+.home {
+  max-width: 1220px;
+  margin: auto;
+}
+.home .blog-preview {
+  padding: 0 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  cursor: pointer;
+}
+.home .blog-preview h2 {
+  font-size: 20px;
+  color: rgba(145, 251, 21, 0.7882352941);
+}
+.home .blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=home.css.map */

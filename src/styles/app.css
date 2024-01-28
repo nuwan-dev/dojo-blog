@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1220px;
+  margin: auto;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3294117647);
+}
+.navbar h1,
+.navbar .links {
+  flex: 1;
+}
+.navbar h1 {
+  color: rgba(145, 251, 21, 0.7882352941);
+}
+.navbar .links {
+  text-align: right;
+}
+.navbar .links a {
+  text-decoration: none;
+  padding: 2%;
+}
+.navbar .links a:not(:last-child) {
+  margin-right: 10px;
+}
+.navbar .links a:hover {
+  background-color: rgba(145, 251, 21, 0.7882352941);
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 360px) {
+  .navbar h1 {
+    text-align: center;
+  }
+  .navbar .links {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

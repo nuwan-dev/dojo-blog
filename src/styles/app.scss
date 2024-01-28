@@ -1,0 +1,52 @@
+@import './var';
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1220px;
+    margin: auto;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #80808054;
+
+    h1,
+    .links {
+        flex: 1;
+    }
+
+    h1 {
+        color: $light-green;
+    }
+
+    .links {
+        text-align: right;
+
+        a {
+            text-decoration: none;
+            padding: 2%;
+        }
+
+        a:not(:last-child) {
+            margin-right: 10px;
+        }
+
+        a:hover {
+            background-color: $light-green;
+            // color: white;
+            border-radius: 8px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .navbar {
+        h1 {
+            text-align: center;
+        }
+
+        .links {
+            text-align: center;
+        }
+    }
+}
